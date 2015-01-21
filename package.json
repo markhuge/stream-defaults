@@ -1,0 +1,22 @@
+{
+  "name": "default-stream",
+  "version": "0.1.0",
+  "description": "Apply defaults to objects as they pass through your streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "keywords": [
+    "streams"
+  ],
+  "author": "Mark Wilkerson <mark@segfawlt.net>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.defaults": "2.4.1",
+    "through2": "0.6.3"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
+}
