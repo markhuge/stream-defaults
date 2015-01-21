@@ -1,5 +1,5 @@
 {
-  "name": "default-stream",
+  "name": "stream-defaults",
   "version": "0.1.0",
   "description": "Apply defaults to objects as they pass through your streams",
   "main": "index.js",
@@ -18,5 +18,16 @@
   "devDependencies": {
     "chai": "^1.10.0",
     "mocha": "^2.1.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markhuge/stream-defaults.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markhuge/stream-defaults/issues"
+  },
+  "homepage": "https://github.com/markhuge/stream-defaults"
 }
